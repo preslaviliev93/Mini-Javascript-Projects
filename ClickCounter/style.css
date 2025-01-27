@@ -1,0 +1,43 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: #1a1a1a;
+    color: #ccc;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.stats {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+#clicksCount{
+    font-weight: bold;
+    font-size: 36px;
+    margin-top: 1rem;
+}
+
+.buttonsContainer{
+    margin-top: 2rem;
+}
+.buttonsContainer button{
+    padding: 1rem;
+    border-radius: 5px;
+}
+.buttonsContainer button:hover{
+    background-color: #dadada
+}
