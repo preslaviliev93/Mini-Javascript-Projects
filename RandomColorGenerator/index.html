@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Palette Generator</title>
+    <link rel="stylesheet" href="src/output.css">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-950 text-white w-full h-full">
+    <div class="container bg-gray-800 mt-4 m-auto p-8 rounded-lg"> 
+        <nav class="top flex flex-col"> 
+            <h3 class="title text-white text-center text-3xl">Color generator</h3>
+            <hr class="border border-gray-700 my-4">
+            <a href="#" class="border border-gray-700 p-4 rounded-lg text-center w-1/2 m-auto bg-blue-800 hover:bg-blue-600" id="generator-button">Generate New Colors</a>
+        </nav>
+        <div class="squares flex flex-col sm:flex-row m-4 justify-center items-center gap-4" id="squares">
+            <div class="border border-gray-900 rounded-t-lg h-[350px] w-[350px] flex flex-col items-center justify-end" id="square1">
+                <span class="bg-gray-900 hidden py-4 text-[#ccc] w-full p-4 text-center rounded-b-l" id="color-code-1"></span>
+            </div>
+
+            <div class="border border-gray-900 rounded-t-lg h-[350px] w-[350px] flex flex-col items-center justify-end" id="square2">
+                <span class="bg-gray-900 hidden py-4 text-[#ccc] w-full p-4 text-center rounded-b-l" id="color-code-2"></span>
+            </div>
+            
+            <div class="border border-gray-900 rounded-t-lg h-[350px] w-[350px] flex flex-col items-center justify-end" id="square3">
+                <span class="bg-gray-900 hidden py-4 text-[#ccc] w-full p-4 text-center rounded-b-l" id="color-code-3"></span>
+            </div>
+
+
+        </div>
+    </div>
+    
+
+
+    <script src="src/scripts.js"></script>
+</body>
+</html>
